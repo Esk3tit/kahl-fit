@@ -1,0 +1,17 @@
+.policy-div{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 10px;
+    background-color: #757575;
+    justify-content: space-evenly;
+}
+
+.policy-discription{
+    width: 800px;
+    margin: auto;
+}
+
+.policy-header{
+    margin: auto;
+}

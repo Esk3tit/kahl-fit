@@ -1,0 +1,5 @@
+.services-div{
+    display: flex;
+    flex-direction: column;
+    background-color: #757575;
+}
