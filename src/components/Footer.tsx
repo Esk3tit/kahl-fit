@@ -10,8 +10,8 @@ function Footer() {
                     <div className="column">
                         <p className="heading">Social Media</p>
                         <a className="footerlink" href="https://www.instagram.com/kahlfit_/"><FiInstagram /></a>
-                        <a className="footerlink" href="tel:+19712847214"><FiPhone /></a>
-                        <a className="footerlink" href="mailto:kahlfit@gmail.com"><FiMail /></a>
+                        <a className="footerlink" href="tel:+19712847214"><FiPhone />971-284-7214</a>
+                        <a className="footerlink" href="mailto:kahlfit@gmail.com"><FiMail />kahlfit@gmail.com</a>
                     </div>
                     <div className="column">
                         <p className="heading">Availability</p>
