@@ -1,8 +1,9 @@
 import React from 'react';
+import "../style/Services.css";
 
 function Services() {
     return (
-        <div>
+        <div className="services-div">
             <h1>Services</h1>
             <p>All programs are bought directly through the trainer. Contact options include phone <em>(971-284-7214)</em> and email <em>(kahlfit@gmail.com)</em>.</p>
             <h2>6 Week Personal Training - $380</h2>
