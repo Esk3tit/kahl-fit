@@ -3,3 +3,32 @@
     flex-direction: column;
     background-color: #757575;
 }
+
+.service {
+    margin: auto;
+}
+
+.service-header {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.service-price{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: auto;
+}
+
+.service-price-description{
+    width: 800px;
+}
+
+.service-notes{
+    display: flex;
+    font-size: 11px;
+    padding: 10px;
+    margin: auto;
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import "../style/footer.css"
 import { FiInstagram, FiPhone, FiMail } from 'react-icons/fi'
 
 function Footer() {

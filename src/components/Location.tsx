@@ -1,9 +1,10 @@
 import React from 'react';
+import "../style/location.css";
 
 function Location() {
     return (
-        <div>
-            <h1>Location of Services</h1>
+        <div className="location">
+            <h1 className="location-header">Location of Services</h1>
             <p>
                 O’Malley’s Gym, 1067 NW Corporate Dr <br />
                 Troutdale, OR 97060
