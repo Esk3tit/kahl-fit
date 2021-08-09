@@ -15,9 +15,7 @@ function App() {
       <Policies />
       <Services />
       <Location />
-      <footer>
-        <Footer />
-      </footer>
+      <Footer />
     </div>
   );
 }
