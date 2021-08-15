@@ -2,3 +2,12 @@
   position: absolute;
   /* overflow: hidden; */
 }
+
+.navbar{
+  height: 80px;
+  overflow: hidden;
+}
+
+.content{
+  position: relative;
+}

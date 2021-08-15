@@ -45,19 +45,19 @@
 }
 
 .footerlink:hover {
-    color: #F9AA33;
+    color: #f9aa33;
     transition: 200ms ease-in;
 }
 
 .heading {
     font-size: 24px;
-    color: #F9AA33;
+    color: #f9aa33;
     margin-bottom: 30px;
     font-weight: bold;
 }
 
 .main-h1 {
-    color: #F9AA33;
+    color: #f9aa33;
     text-align: center;
     margin-top: -50px;
 }

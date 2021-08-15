@@ -13,31 +13,38 @@ function App() {
     return (
         <div>
             {/* <NavbarHeader /> */}
-            <Navbar bg="light" variant="light" sticky="top">
+
+            <Navbar bg="light" variant="light" sticky="top" className="navbar">
                 <Container>
                     <Navbar.Brand href="#home"> Kahl Fit </Navbar.Brand>
                     <Nav>
-                        <Nav.Link href="/Home">Home</Nav.Link>
-                        <Nav.Link href="/About">About</Nav.Link>
-                        <Nav.Link href="/Policies">Policies</Nav.Link>
-                        <Nav.Link href="/Services">Services</Nav.Link>
-                        <Nav.Link href="/Location">Location</Nav.Link>
+                        <Nav.Link href="#home">Home</Nav.Link>
+                        <Nav.Link href="#About">About</Nav.Link>
+                        <Nav.Link href="#Policies">Policies</Nav.Link>
+                        <Nav.Link href="#Services">Services</Nav.Link>
+                        <Nav.Link href="#Location">Location</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>
 
-            <About />
-            {/* <img
-                src="https://cdn.discordapp.com/attachments/808530804702707803/874127360738349096/IMG_6983.jpeg"
-                alt="eddie posing"
-                id="strong-man1"
-                width="100%"
-            /> */}
-            <Policies />
+            <div className="content">
+                <div id="About">
+                    <About />
+                </div>
 
-            <Services />
+                <div id="Policies">
+                    <Policies />
+                </div>
 
-            <Location />
+                <div id="Services">
+                    <Services />
+                </div>
+
+                <div id="Location">
+                    <Location />
+                </div>
+            </div>
+
             <footer>
                 <Footer />
             </footer>
