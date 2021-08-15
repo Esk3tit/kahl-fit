@@ -1,5 +1,5 @@
 import React from 'react';
-import "../style/location.css";
+import "../style/Location.css";
 
 function Location() {
     return (
