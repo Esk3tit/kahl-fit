@@ -1,7 +1,7 @@
 .services-div{
     display: flex;
     flex-direction: column;
-    background-color: #757575;
+    background-color: #eeeeee;
 }
 
 .service {

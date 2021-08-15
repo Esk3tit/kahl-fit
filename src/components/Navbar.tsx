@@ -6,7 +6,7 @@ import '../style/Navbar.css';
 const NavbarHeader = () => {
     return (
         <div>
-            <Navbar bg="dark" variant="dark">
+            <Navbar bg="light" variant="light"  >
                 <Container>
                     <Navbar.Brand href="#home"> Picture Here </Navbar.Brand>
                     <Nav>

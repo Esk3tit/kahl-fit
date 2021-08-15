@@ -1,12 +1,12 @@
 .location {
     display: flex;
     flex-direction: column;
-    background-color: #757575;
+    background-color: #eeeeee;
     padding: 10px;
     /* margin: auto; */
 
 }
 
-.location-header{
+/* .location-header{
     margin: auto;
-}
+} */
