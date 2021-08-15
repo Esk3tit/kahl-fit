@@ -15,7 +15,7 @@ function App() {
             {/* <NavbarHeader /> */}
             <Navbar bg="light" variant="light" sticky="top">
                 <Container>
-                    <Navbar.Brand href="#home"> Picture Here </Navbar.Brand>
+                    <Navbar.Brand href="#home"> Kahl Fit </Navbar.Brand>
                     <Nav>
                         <Nav.Link href="/Home">Home</Nav.Link>
                         <Nav.Link href="/About">About</Nav.Link>
@@ -25,9 +25,18 @@ function App() {
                     </Nav>
                 </Container>
             </Navbar>
+
             <About />
+            {/* <img
+                src="https://cdn.discordapp.com/attachments/808530804702707803/874127360738349096/IMG_6983.jpeg"
+                alt="eddie posing"
+                id="strong-man1"
+                width="100%"
+            /> */}
             <Policies />
+
             <Services />
+
             <Location />
             <footer>
                 <Footer />
