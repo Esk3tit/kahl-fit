@@ -13,7 +13,7 @@ function Policies() {
     return (
         <div className="policy-div">
             <h1 className="policy-header">Policies</h1>
-            <div className="policy-discription">
+            <div className="policy-description">
                     {/* <p>All clients must be aware of the following:</p> */}
                 <ul>
                     <li data-aos="fade-up">All clients must pay a guest fee or be a member at O'Malley's Gym.</li>

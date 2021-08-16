@@ -24,10 +24,10 @@ function Footer() {
                     </div>
                     <div className="column">
                         <p className="heading">Navigate</p>
-                        <a className="footerlink" href="#">About</a>
-                        <a className="footerlink" href="#">Policies</a>
-                        <a className="footerlink" href="#">Services</a>
-                        <a className="footerlink" href="#">Location</a>
+                        <a className="footerlink" href="#About">About</a>
+                        <a className="footerlink" href="#Policies">Policies</a>
+                        <a className="footerlink" href="#Services">Services</a>
+                        <a className="footerlink" href="#Location">Location</a>
                     </div>
                 </div>
             </div>

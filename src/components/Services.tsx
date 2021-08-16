@@ -9,7 +9,7 @@ const Aos = require('aos');
 function Services() {
 
     useEffect(()=> {
-       Aos.init({duration: 2000});
+        Aos.init({duration: 2000});
     }, []);
 
 

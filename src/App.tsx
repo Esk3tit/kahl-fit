@@ -26,21 +26,7 @@ function App() {
 
     return (
         <div>
-            <Navbar bg="light" variant="light" sticky="top">
-                <Container>
-                    <Navbar.Brand href="#">Kahl Fit</Navbar.Brand>
-                </Container>
-
-                <Container>
-                    <Nav>
-                        <Nav.Link href="#Home">Home</Nav.Link>
-                        <Nav.Link href="#About">About</Nav.Link>
-                        <Nav.Link href="#Policies">Policies</Nav.Link>
-                        <Nav.Link href="#Services">Services</Nav.Link>
-                        <Nav.Link href="#Location">Location</Nav.Link>
-                    </Nav>
-                </Container>
-            </Navbar>
+            <NavbarHeader />
 
             <div className="content">
                 {/* static -> parallax -> static ... */}
@@ -101,9 +87,7 @@ function App() {
                 </div>
             </div>
 
-            <footer>
-                <Footer />
-            </footer>
+            <Footer />
         </div>
     );
 }
