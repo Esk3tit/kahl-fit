@@ -18,7 +18,7 @@ function Services() {
             <div className="service">
                 <h1 className="service-header">Services</h1>
 
-                <p className="service-header">
+                <p className="service-text">
                     All programs are bought directly through the trainer.
                     Contact options include phone <em>(971-284-7214)</em> and
                     email <em>(kahlfit@gmail.com)</em>.
@@ -84,10 +84,10 @@ function Services() {
                     </p>
                 </div>
 
-                <div className="service-notes">
+                <div className="service-notes" data-aos="fade-up">
                     <strong>
                         <p>
-                            NOTES: All services provided are consumed at the
+                            NOTE: All services provided are consumed at the
                             buyer’s risk. The trainer is not responsible for any
                             physiological or psychological injury for any of the
                             bought services.

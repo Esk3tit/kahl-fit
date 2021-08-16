@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import NavbarHeader from "./components/Navbar";
 import { Container, Navbar, Nav } from "react-bootstrap";
 import ParallaxAbout from "./components/ParallaxAbout";
+import PersonalTraining from "./components/PersonalTraining";
 
 function App() {
     const [offset, setOffset] = useState(0);
@@ -65,6 +66,10 @@ function App() {
                         width="650"
                     />
                 </div> */}
+
+                <div id="Personal-Training">
+                    <PersonalTraining />
+                </div>
 
                 <div id="Services">
                     <Services />

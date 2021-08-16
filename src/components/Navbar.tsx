@@ -29,6 +29,7 @@ const NavbarHeader = () => {
                     <Nav.Link href="#Home">Home</Nav.Link>
                     <Nav.Link href="#About">About</Nav.Link>
                     <Nav.Link href="#Policies">Policies</Nav.Link>
+                    <Nav.Link href="#Personal-Training">Personal Training</Nav.Link>
                     <Nav.Link href="#Services">Services</Nav.Link>
                     <Nav.Link href="#Location">Location</Nav.Link>
                 </Nav>

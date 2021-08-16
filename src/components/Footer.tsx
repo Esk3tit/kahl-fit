@@ -26,6 +26,7 @@ function Footer() {
                         <p className="heading">Navigate</p>
                         <a className="footerlink" href="#About">About</a>
                         <a className="footerlink" href="#Policies">Policies</a>
+                        <a className="footerlink" href="#Personal-Training">Personal Training</a>
                         <a className="footerlink" href="#Services">Services</a>
                         <a className="footerlink" href="#Location">Location</a>
                     </div>
