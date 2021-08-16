@@ -1,0 +1,29 @@
+.content-about {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
+    max-width: 100%;
+    width: 100vw;
+    background-color: #eeeeee;
+}
+
+.gray-box {
+    height: 300px;
+    width: 300px;
+    padding: 50px;
+    margin: 50px;
+}
+
+/* .one {
+    
+} */
+
+/* .two {
+    background-image: url("");
+}
+
+.three {
+    background-image: url("");
+} */
