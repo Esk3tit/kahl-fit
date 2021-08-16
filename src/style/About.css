@@ -1,20 +1,30 @@
-.about-div{
+.about-div {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding: 10px;
     margin: auto;
     background-color: #eeeeee;
     justify-content: space-evenly;
 }
 
-.about-me{
+.about-me {
     padding: 10px;
     display: flex;
     flex-direction: column;
-
+    justify-content: center;
+    margin: auto;
 }
 
-.about-description{
+.about-section {
+    text-align: center;
+}
+
+.about-description {
     width: 800px;
-
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
+
+
