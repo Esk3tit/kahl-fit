@@ -29,6 +29,7 @@
     @media (max-width: 1000px) {
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     }
+    
 } */
 
 .footer-row {
