@@ -6,15 +6,15 @@
     }
 }
 
-.container {
+/* .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     max-width: 1000px;
     margin: 0 auto;
-}
+} */
 
-.column {
+.footer-column {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -31,10 +31,11 @@
     }
 } */
 
-.row {
+.footer-row {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
+    flex-direction: row;
 }
 
 .footerlink {
