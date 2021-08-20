@@ -3,7 +3,6 @@ import "../style/ParallaxAbout.css";
 const Rellax = require("rellax");
 let rellax = new Rellax(".rellax");
 
-
 // replaced later with pictures of eddie
 export default function ParallaxAbout() {
     return (
