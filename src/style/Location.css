@@ -1,12 +1,15 @@
-.location {
+.location-div {
     display: flex;
     flex-direction: column;
     background-color: #eeeeee;
     padding: 10px;
+    justify-content: center;
     /* margin: auto; */
 
 }
 
-/* .location-header{
+.location-header, .location-addy{
     margin: auto;
-} */
+    padding: 10px;
+}
+

@@ -10,6 +10,7 @@ import NavbarHeader from "./components/Navbar";
 import { Container, Navbar, Nav } from "react-bootstrap";
 import ParallaxAbout from "./components/ParallaxAbout";
 import PersonalTraining from "./components/PersonalTraining";
+import Appointment from "./components/Appointment";
 
 function App() {
     const [offset, setOffset] = useState(0);
@@ -89,6 +90,10 @@ function App() {
 
                 <div id="Location">
                     <Location />
+                </div>
+
+                <div>
+                    <Appointment />
                 </div>
             </div>
 
